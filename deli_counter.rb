@@ -4,7 +4,8 @@ def line(katz_deli)
   if katz_deli.size == 0 
     puts "The line is currently empty."
   end
-  katz_deli.each_with_index
+  katz_deli.each_with_index do |name, index|
+    
 end
 
 def take_a_number(katz_deli, name)
