@@ -5,6 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
   katz_deli.each_with_index do |name, index|
+    puts
     
 end
 
