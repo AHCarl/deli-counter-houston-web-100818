@@ -5,10 +5,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   end 
   
-  lines = "The line is currently: "
+  a = "The line is currently: "
+  b = ""
   katz_deli.each_with_index do |name, index| 
-    
+    b ++ "#{index+1}. #{name}"
   end
+  puts a + b
 end
 
 def take_a_number(katz_deli, name)
