@@ -1,16 +1,16 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli.size < 1 
-    puts "The line is currently empty."
-  end 
-  
   a = "The line is currently: "
   b = ""
   katz_deli.each_with_index do |name, index| 
     b ++ "#{index+1}. #{name}"
   end
   puts a + b
+  
+  if katz_deli.size < 1 
+    puts "The line is currently empty."
+  end 
 end
 
 def take_a_number(katz_deli, name)
