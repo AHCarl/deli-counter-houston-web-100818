@@ -4,10 +4,10 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-  a = "The line is currently: "
+  a = "The line is currently:"
   b = ""
   katz_deli.each_with_index do |name, index| 
-    b += "#{index+1}. #{name} "
+    b += " #{index+1}. #{name}"
   end
   puts a + b
 end
