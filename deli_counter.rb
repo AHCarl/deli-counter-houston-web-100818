@@ -2,8 +2,8 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.size == 0 
-    puts ""
-  
+    puts "The line is currently empty."
+  end
   a = "The line is currently: "
   b = ""
   katz_deli.each_with_index do |name, index| 
