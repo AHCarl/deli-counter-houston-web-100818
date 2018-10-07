@@ -24,4 +24,5 @@ def now_serving(katz_deli)
     name = katz_deli.first 
     puts "Now serving #{name}."
   end
+  katz_deli.shift
 end
